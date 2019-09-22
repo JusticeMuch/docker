@@ -1,2 +1,2 @@
 docker run -i alpine
-docker run -i -rm alpine
+docker run -it -rm alpine

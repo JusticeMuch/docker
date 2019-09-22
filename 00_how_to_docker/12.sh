@@ -1,1 +1,1 @@
-docker run -d --restart unless-stopped mysql
+docker run --name spawning-pool --volume="/mnt/sda1/var/lib/docker/volumes/hatchery/_data" --restart unless-stopped --env="MYSQL_ROOT_PASSWORD=Kerrigan MYSQL_DATABASE=zerglings" -d mysql 
