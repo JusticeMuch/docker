@@ -1,0 +1,1 @@
+docker run debian bash -c "apt update" "apt install build essential" "apt install git"
