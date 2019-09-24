@@ -1,0 +1,1 @@
+docker run -d --restart unless-stopped --name Abathur -p 3000:3000 -v ~/homes/jronald/target:/app   python:2-slim "py /$(PWD)/19.py"

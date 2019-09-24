@@ -1,1 +1,1 @@
-docker ps -a -f status=active
+docker ps -a -f status=running
