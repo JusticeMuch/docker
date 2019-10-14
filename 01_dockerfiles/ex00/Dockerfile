@@ -2,9 +2,7 @@ FROM alpine
 
 MAINTAINER jronald
 
-RUN RUN apk update && \
-    apk upgrade && \
-    apk add vim 
+RUN apk upgrade && apk add vim
 
 ENTRYPOINT vim 
 
