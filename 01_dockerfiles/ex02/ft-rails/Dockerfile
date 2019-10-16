@@ -11,3 +11,5 @@ ONBUILD EXPOSE 3000
 ONBUILD RUN bundle install
 ONBUILD RUN rake db:create
 ONBUILD RUN rake db:migrate
+
+#build - docker build -t ft-rails:on-build .
