@@ -12,4 +12,4 @@ ENTRYPOINT sh ts3server_minimal_runscript.sh
 
 # build - docker build -t ex01 .
 
-#run docker run -d -p 9987:9987/udp -p 10011:10011 -p 30033:30033 --name=test ex01
+#run docker run --rm -d -p 9987:9987/udp -p 10011:10011 -p 30033:30033 --name=test ex01
